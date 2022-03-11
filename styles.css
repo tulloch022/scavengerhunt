@@ -46,25 +46,25 @@ h1, h2, h3, a, p, label {
 }
 
 
-h1 {
-    margin-bottom: 5rem;
-}
 
 
 a {
     color: black;
     margin: 0 auto;
     background-color: white;
-    width: 25%;
+    width: 100%;
     text-decoration: none;
-    box-shadow: 1rem 1.5rem black;
+    box-shadow: 1rem 1rem black;
 }
 
 
-a:hover {
+
+
+
+a:active {
     color: white;
     background-color: black;
-    box-shadow: 1rem 1.5rem white;
+    box-shadow: -1rem -1rem white;
 }
 
 
@@ -91,4 +91,8 @@ input {
     width: 100%;
     border: none;
     background-color: #26A67D;
+}
+
+.button:active {
+    background-color: grey;
 }
