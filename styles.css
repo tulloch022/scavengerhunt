@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height:100%;
+}
 
 
 /* Custom Properties */
@@ -29,8 +32,12 @@ form {
 
 .container {
     display: grid;
-    max-width: 960px;
+    max-width: 500px;
     margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1, h2, h3, a, p, label {
@@ -39,14 +46,25 @@ h1, h2, h3, a, p, label {
 }
 
 
+h1 {
+    margin-bottom: 5rem;
+}
+
+
 a {
     color: black;
-    border-radius: 1rem;
     margin: 0 auto;
     background-color: white;
     width: 25%;
     text-decoration: none;
-    box-shadow: 1rem 1.5em;
+    box-shadow: 1rem 1.5rem black;
+}
+
+
+a:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 1rem 1.5rem white;
 }
 
 
