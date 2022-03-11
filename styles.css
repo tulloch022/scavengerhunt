@@ -25,7 +25,12 @@ body {
 
 
 form {
-    padding-top: 5rem;
+
+    margin: 0 auto;
+}
+
+label {
+    display: block;
     margin: 0 auto;
 }
 
@@ -95,4 +100,5 @@ input {
 
 .button:active {
     background-color: grey;
+    width: 25%;
 }
