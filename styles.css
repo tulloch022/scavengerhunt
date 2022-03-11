@@ -80,11 +80,9 @@ a {
 
 
 
-
-a:hover {
+a:active {
+    width: auto;
     color: white;
-    background-color: black;
-    box-shadow: -1rem -1rem white;
 }
 
 
