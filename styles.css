@@ -35,6 +35,18 @@ h1, h2, h3, a, p, label {
     font-family: var(--ff-primary);
 }
 
+
+a {
+    color: black;
+    border-radius: 1rem;
+    margin: 0 auto;
+    background-color: white;
+    width: 25%;
+    text-decoration: none;
+    box-shadow: 1rem 1.5em;
+}
+
+
 p {
     margin-bottom: 0rem;
 }
