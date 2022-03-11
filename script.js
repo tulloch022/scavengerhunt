@@ -1,13 +1,18 @@
 //Event: Go to next clue
 
-document.querySelector('#password-form').addEventListener('submit', e => {
+const currentClue = () => {
+    return querySelector('#banner').value;
+}
+
+const onSubmit = () => {
     const password = 'this';
     const enteredPassword = document.querySelector('#password').value;
-    if (enteredPassword != password) {
-        alert ('That is not right!') 
+    if (enteredPassword === password) {
+        window.location.href="/Users/kevintulloch/Projects/ScavengerHunt/Clue2.html";
     } else {
-        alert ('Yes!')
+        alert ('That is not right!');
     }
-});
+};
+
 
 

@@ -90,12 +90,12 @@ input {
     display: center;
 }
 
-.button {
-    margin-top: 1rem;
+button {
     display: block;
-    width: 100%;
+    width: 75%;
     border: none;
     background-color: #26A67D;
+    margin: 1rem auto;
 }
 
 .button:active {
