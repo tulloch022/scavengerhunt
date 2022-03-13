@@ -1,13 +1,3 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-html, body {
-    height:100%;
-}
-
 
 /* Custom Properties */
 
@@ -22,18 +12,9 @@ body {
     background-color: #BDDAD1;
 }
 
-
-
 form {
-
     margin: 0 auto;
 }
-
-label {
-    display: block;
-    margin: 0 auto;
-}
-
 
 .container {
     display: grid;
@@ -51,7 +32,6 @@ h1, h2, h3, a, p, label {
     z-index: 3;
 }
 
-
 .banner {
     max-width: 500px;
     position: absolute;
@@ -62,9 +42,6 @@ h1, h2, h3, a, p, label {
     opacity: 30%;
     border-radius: 10%;
 }
-
-
-
 
 a {
     color: black;
@@ -77,14 +54,10 @@ a {
     transition: background-color 300ms ease-in;
 }
 
-
-
-
 a:active {
     width: auto;
     color: white;
 }
-
 
 p {
     margin-bottom: 0rem;
@@ -94,6 +67,7 @@ label {
     margin-top: 5rem;
     margin-bottom:  1rem;
     font-weight: bold;
+    display: block;
 }
 
 input {
