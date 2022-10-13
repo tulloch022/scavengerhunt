@@ -7,7 +7,7 @@ const getCurrentClue = () => {
 
 
 
-
+//Event: Display Hint
 
 
 //Event: Go to next clue
@@ -18,7 +18,7 @@ const onSubmit = () => {
     const currentClue = getCurrentClue();
     console.log(currentClue)
     if (currentClue === 'Your First Clue') {
-        password = 'this'
+        password = 'Router'
         nextPage = 'Clue2.html';
     } else if (currentClue === 'Your Second Clue') {
         password = 'that'
