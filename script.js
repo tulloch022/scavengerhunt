@@ -60,7 +60,8 @@ const onSubmit = () => {
     if (enteredPassword === password) {
         window.location.href=nextPage;
     } else {
-        alert ('That is not right!');
+       const wrongMessage = document.getElementById("wrongMessage")
+       wrongMessage.style.display = "block";
     }
 };
 
