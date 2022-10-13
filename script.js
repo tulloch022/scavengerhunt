@@ -10,7 +10,12 @@ const getCurrentClue = () => {
 //Event: Display Hint
 
 const onHint = () => {
-    const hintBox = document.getElementById("hint")
+    const hintBox = document.getElementById("hint");
+    if (hintBox.style.display == "block") {
+        hintBox.style.display = "none";
+    } else {
+        hintBox.style.display = "block";
+    }
 }
 
 //Event: Go to next clue
