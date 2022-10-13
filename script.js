@@ -8,6 +8,8 @@ const getCurrentClue = () => {
 
 
 
+
+
 //Event: Go to next clue
 
 const onSubmit = () => {
