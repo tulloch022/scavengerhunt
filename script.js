@@ -9,6 +9,9 @@ const getCurrentClue = () => {
 
 //Event: Display Hint
 
+const onHint = () => {
+    const hintBox = document.getElementById("hint")
+}
 
 //Event: Go to next clue
 
