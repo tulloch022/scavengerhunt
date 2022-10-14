@@ -107,6 +107,7 @@ button:active {
 }
 
 #hint {
+    font-size: 2rem;
     display: none;
 }
 
